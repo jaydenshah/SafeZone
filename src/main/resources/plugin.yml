@@ -1,0 +1,14 @@
+name: SafeZone
+version: 1.0.0
+main: org.example.safezone.SafeZone
+description: Lets you create regions where PVP is disabled
+author: CrimstoneMC
+website: https://noahst.one
+api-version: '1.21.8'
+
+commands:
+  safezone:
+    description: Manage the safe zone
+    usage: /safezone <set|radius>
+    permission: safezone.use
+    permission-message: You don’t have permission to use this command!
